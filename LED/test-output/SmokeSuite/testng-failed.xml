@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.UpdateProfileSubscriber">
+        <methods>
+          <include name="setUp"/>
+          <include name="updatePrfileSubscriberTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.UpdateProfileSubscriber -->
+      <class name="com.crm.qa.testcases.Add_Response_Subscriber">
+        <methods>
+          <include name="setUp"/>
+          <include name="addResponseSubscriberTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.Add_Response_Subscriber -->
+      <class name="com.crm.qa.testcases.EditEventTest">
+        <methods>
+          <include name="editEventPartnerTest"/>
+          <include name="editEventSubscriberTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.EditEventTest -->
+      <class name="com.crm.qa.testcases.UpdateProfilePartnerTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="updatePrfilePartnerTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.UpdateProfilePartnerTest -->
+      <class name="com.crm.qa.testcases.CreateEventTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="createEventPartnerTest"/>
+          <include name="createEventTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CreateEventTest -->
+      <class name="com.crm.qa.testcases.PartnerMessage">
+        <methods>
+          <include name="SubscriberMessageTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.PartnerMessage -->
+      <class name="com.crm.qa.testcases.DeleteEventSubscriberTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="deletePartnerTest"/>
+          <include name="deleteSubscriberTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.DeleteEventSubscriberTest -->
+      <class name="com.crm.qa.testcases.AddPartnerTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="addPartnerTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.AddPartnerTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginSubscriberTest"/>
+          <include name="setUp"/>
+          <include name="loginPartnerTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+      <class name="com.crm.qa.testcases.Add_Response_Partner">
+        <methods>
+          <include name="setUp"/>
+          <include name="addPartnerTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.Add_Response_Partner -->
+      <class name="com.crm.qa.testcases.SignUpTest">
+        <methods>
+          <include name="signUpRegistrationTest"/>
+          <include name="before"/>
+          <include name="partDetailsTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.SignUpTest -->
+      <class name="com.crm.qa.testcases.Forgot_Password_Subscriber">
+        <methods>
+          <include name="setUp"/>
+          <include name="forgotpasswordTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.Forgot_Password_Subscriber -->
+      <class name="com.crm.qa.testcases.SubscriberMessage">
+        <methods>
+          <include name="SubscriberMessageTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.SubscriberMessage -->
+      <class name="com.crm.qa.testcases.Forgot_Password_Partner">
+        <methods>
+          <include name="forgotpasswordTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.Forgot_Password_Partner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->

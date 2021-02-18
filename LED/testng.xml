@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.crm.qa.testcases.SignUpTest" />
+			<class name="com.crm.qa.testcases.Add_Response_Subscriber" />
+			<class name="com.crm.qa.testcases.Add_Response_Partner" />
+			<class name="com.crm.qa.testcases.CreateEventTest" />
+			<class name="com.crm.qa.testcases.EditEventTest" />
+			<class name="com.crm.qa.testcases.DeleteEventSubscriberTest" />
+			<class name="com.crm.qa.testcases.SubscriberMessage" />
+			<class name="com.crm.qa.testcases.PartnerMessage" />
+			<class name="com.crm.qa.testcases.Forgot_Password_Subscriber" />
+			<class name="com.crm.qa.testcases.Forgot_Password_Partner" />
+			<class name="com.crm.qa.testcases.LoginPageTest" />
+			<class name="com.crm.qa.testcases.UpdateProfilePartnerTest" />
+			<class name="com.crm.qa.testcases.UpdateProfileSubscriber" />
+			<class name="com.crm.qa.testcases.AddPartnerTest" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- SmokeSuite -->

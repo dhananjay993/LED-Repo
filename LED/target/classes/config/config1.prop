@@ -1,0 +1,16 @@
+deviceName      = OnePlus6Tt
+udid            = f571a4c
+platformName    = Android
+platformVersion = 10.3.7
+appPackage      = com.globalmed.loveeveryday
+appActivity     = com.globalmed.loveeveryday.ui.main.splash.SplashActivity
+url             = http://127.0.0.1:4723/wd/hub
+AccountName     = Testing1124
+FirstName       = jack
+LastName        = ray
+Password        = Blackberry@2
+ConfirmPassword = Blackberry@2
+PartnerFirstName = Susan
+PartnerLastName  = Ray
+Partemail        = dpatil@amsysis.com
+country          = india
